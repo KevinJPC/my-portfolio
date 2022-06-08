@@ -139,7 +139,6 @@ const LineNumber = styled.div`
     padding-top: 0.5em;
     width: 7%;
     height: 100%;
-    background-color: #1C1C1C;
     border-radius: 0 0 0 1em;
 
     display: flex;

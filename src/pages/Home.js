@@ -21,11 +21,11 @@ const Container = styled.div`
 const ContentContainer = styled.div`
 
     @media ${device.mobileS} {
-        width: 100%;
+        width: 95%;
     }
 
     @media ${device.tablet} {
-    width: 100%;
+    width: 90%;
     }
 
     @media ${device.laptop} {

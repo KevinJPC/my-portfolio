@@ -22,6 +22,7 @@ const Container = styled.div`
     @media ${device.laptopL} {
         display: flex;
     }
+    
     justify-content: space-between;
     width: 100%;
     height: 100px;

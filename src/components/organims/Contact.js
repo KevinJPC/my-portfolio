@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../atoms/Button";
 import { Title } from "../atoms/Title";
+import { device } from "../MediaQueries";
 
 const Container = styled.div`
     display: flex;
@@ -22,8 +23,34 @@ const Container = styled.div`
     p{
         text-align: center;
         color: #B2AAAA;
-        width: 60%;
         font-size: calc(1em + 0.18vw);
+    }
+
+    @media ${device.mobileS} {
+        p{
+            width: 100%;
+        }
+    }
+
+    @media ${device.tablet} {
+        p{
+            width: 100%;
+        }
+
+    }
+
+    @media ${device.laptop} {
+        p{
+            width: 60%;
+        }
+
+    }
+
+    @media ${device.laptopL} {
+        p{
+            width: 60%;
+        }
+
     }
 `
 

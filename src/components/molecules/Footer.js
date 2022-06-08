@@ -13,6 +13,25 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media ${device.mobileS} {
+        margin-bottom: 2em;
+    }
+
+    @media ${device.tablet} {
+        margin-bottom: 2em;  
+
+    }
+
+    @media ${device.laptop} {
+        margin-bottom: 0;  
+
+    }
+
+    @media ${device.laptopL} {
+        margin-bottom: 0;  
+
+    }
 `
 
 const ContainerSocials = styled.div`
